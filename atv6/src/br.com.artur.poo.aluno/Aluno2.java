@@ -1,21 +1,21 @@
-public class Aluno {
+public class Aluno2 {
     String nome;
     String matricula;
     int idade;
     String curso;
 
-    public Aluno( String nome, String matricula, int idade, String curso) {
+    public Aluno2( String nome, String matricula, int idade, String curso) {
         this.nome = nome;
         this.matricula = matricula;
         this.idade = idade;
         this.curso = curso;
     }
 
-    public Aluno() {
+    public Aluno2() {
         this.curso = "Informática";
     }
 
-    public Aluno( int idade) {
+    public Aluno2( int idade) {
         this.idade = idade;
     }
 }
