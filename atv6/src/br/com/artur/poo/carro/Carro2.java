@@ -1,3 +1,5 @@
+package br.com.artur.poo.carro;
+
 public class Carro2 {
     String marca;
     String modelo;

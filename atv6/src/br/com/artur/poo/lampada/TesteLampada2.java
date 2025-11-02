@@ -1,3 +1,5 @@
+package br.com.artur.poo.lampada;
+
 public  class TesteLampada2 {
     public static void main(String[] args) {
         //Instaciando primeiro objeto com um construtor com lógica de atribuição

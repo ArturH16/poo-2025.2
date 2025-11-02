@@ -14,7 +14,7 @@ public class Treino {
 	}
 	
 	public void verExercicio() {
-		System.out.println("O nome do exercício feito foi " + this.nomeExercicio);
+		System.out.println("O nome do exercÃ­cio feito foi " + this.nomeExercicio);
 	}
 
 }

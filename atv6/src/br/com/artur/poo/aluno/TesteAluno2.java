@@ -1,3 +1,5 @@
+package br.com.artur.poo.aluno;
+
 public class TesteAluno2 {
     public static void main(String[] args) {
         //Instaciando o primeiro objeto com um construtor de valor pré-definido

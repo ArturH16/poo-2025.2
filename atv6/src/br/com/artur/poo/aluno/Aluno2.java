@@ -1,3 +1,5 @@
+package br.com.artur.poo.aluno;
+
 public class Aluno2 {
     String nome;
     String matricula;

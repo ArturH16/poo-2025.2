@@ -1,6 +1,6 @@
 package br.com.artur.poo.fisiculturista;
 
-import br.com.artur.poo.exercicio.Treino;
+//import br.com.artur.poo.exercicio.Treino;
 
 public class TesteFisiculturista {
 

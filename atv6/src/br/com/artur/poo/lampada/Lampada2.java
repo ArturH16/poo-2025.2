@@ -1,3 +1,5 @@
+package br.com.artur.poo.lampada;
+
 public class Lampada2 {
     String tipo;
     int ano;
