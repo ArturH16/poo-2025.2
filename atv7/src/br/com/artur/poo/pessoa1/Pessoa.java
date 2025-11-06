@@ -1,4 +1,4 @@
-package br.com.artur.poo.pessoa;
+package br.com.artur.poo.pessoa1;
 
 public class Pessoa {
 	 public String nome;

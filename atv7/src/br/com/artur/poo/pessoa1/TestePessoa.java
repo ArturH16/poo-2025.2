@@ -1,4 +1,4 @@
-package br.com.artur.poo.pessoa;
+package br.com.artur.poo.pessoa1;
 
 import br.com.artur.poo.funcionario.Funcionario;
 
