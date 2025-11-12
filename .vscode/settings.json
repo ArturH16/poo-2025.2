@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "atv7\\src",
         "atv6\\src",
-        "atv8\\src"
+        "atv8\\src",
+        "atv9\\src"
     ],
     "java.project.referencedLibraries": []
 }
