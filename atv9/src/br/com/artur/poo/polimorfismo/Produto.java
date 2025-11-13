@@ -30,7 +30,7 @@ public class Produto {
         this.nome = nome;
     }
 
-    public String getNome(String nome) {
+    public String getNome() {
         return this.nome ;
     }
 
@@ -38,7 +38,7 @@ public class Produto {
         this.preco = preco;
     }
 
-    public double getpreco() {
+    public double getPreco() {
         return this.preco ;
     }
 
