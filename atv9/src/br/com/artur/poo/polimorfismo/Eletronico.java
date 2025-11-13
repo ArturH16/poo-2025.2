@@ -14,7 +14,7 @@ public class Eletronico extends Produto {
 
     @Override 
     public void mostrarInformacoes() {
-        System.out.println("O nome do eletrônico é " + super.getNome() + "\nO código do eletrônico é " + super.getCodigo() + "\nO preço do eletrônico é " + super.getPreco() + "\nA quantidade em estoque é " + super.getQuantidadeEstoquetCodigo() + "\nA voltagem doe eletrônico é " + this.voltagem + "\nA garantia em meses do produto é " + this.garantiaMeses );
+        System.out.println("O nome do eletrônico é " + super.getNome() + "\nO código do eletrônico é " + super.getCodigo() + "\nO preço do eletrônico é " + super.getPreco() + "\nA quantidade em estoque é " + super.getQuantidadeEstoquetCodigo() + "\nA voltagem do eletrônico é " + this.voltagem + "\nA garantia em meses do produto é " + this.garantiaMeses );
     }
 
 
@@ -23,13 +23,12 @@ public class Eletronico extends Produto {
     }
 
     public void mostrarGarantia( int ano) {
-        int garantiaAno = garantiaMeses / ano;
-        System.out.println("A garantia em anos corresponde a " + garantiaAno);
+        System.out.println("A garantia em meses corresponde a " + this.garantiaMeses + " meses para o ano de " + ano);
     }
 
-    public void mostrarGarantia(int dias, int nome) {
+    public void mostrarGarantia(int dias, String nomeConsumidor) {
         int garantiaDias = garantiaMeses * dias;
-        System.out.println("A garantia em dias corresponde a " + garantiaDias + "para o eletrônico " + nome);
+        System.out.println("A garantia em dias corresponde a " + garantiaDias + " dias, " + nomeConsumidor);
     }
 
 

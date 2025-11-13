@@ -22,7 +22,31 @@ public class Roupa extends Produto {
         }
     }
 
-    public 
+    public  boolean verDisponibilidade() {
+        if (isEstoque) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void verDisponibilidade(int mes) {
+        if (isEstoque) {
+            System.out.print("A roupa está disponível ");;
+        } else {
+            System.out.print("A roupa não está disponível");;
+        }
+        System.out.print(" no mês " + mes );
+        
+    }
+
+    public void verDisponibilidade(String data) {
+          if (isEstoque) {
+            System.out.println("A roupa está disponível na data " + data);;
+        } else {
+            System.out.println("A roupa não está disponível na data " + data);;
+        }
+    }
 
     public String getTipo() {
         return this.tipo;
