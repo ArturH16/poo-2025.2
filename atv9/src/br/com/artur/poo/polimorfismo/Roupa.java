@@ -36,7 +36,7 @@ public class Roupa extends Produto {
         } else {
             System.out.print("A roupa não está disponível");;
         }
-        System.out.print(" no mês " + mes );
+        System.out.print(" no mês " + mes + "\n" );
         
     }
 
