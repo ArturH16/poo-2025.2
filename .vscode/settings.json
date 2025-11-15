@@ -4,7 +4,8 @@
         "atv6\\src",
         "atv8\\src",
         "atv9\\src",
-        "atv10\\src"
+        "atv10\\src",
+        "atv11\\src"
     ],
     "java.project.referencedLibraries": []
 }
